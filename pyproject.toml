@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "esm3-protein-embeddings"
+version = "0.1.0"
+description = "Protein analysis with ESM3 embeddings"
+authors = ["Nikos Mourdoukoutas <nmourdoukoutas@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+esm = ">=3.2.0,<4.0.0"
+ete3 = ">=3.1.3,<4.0.0"
+matplotlib = ">=3.10.3,<4.0.0"
+scikit-learn = ">=1.7.0,<2.0.0"
+ipykernel = ">=6.29.5,<7.0.0"
+jupyter = ">=1.1.1,<2.0.0"
+umap-learn = "^0.5.9.post2"
+seaborn = "^0.13.2"
+llvmlite = "^0.44.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
